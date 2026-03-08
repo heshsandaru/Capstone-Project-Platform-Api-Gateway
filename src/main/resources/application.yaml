@@ -3,7 +3,8 @@ spring:
     name: api-gateway
 
   config:
-    import: "optional:configserver:"
+#    fail-fast
+    import: "configserver:"
 
   cloud:
     config:
